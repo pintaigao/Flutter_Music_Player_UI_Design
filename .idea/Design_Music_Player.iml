@@ -6,6 +6,9 @@
       <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/utility/fluttery-master/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/utility/fluttery-master/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/utility/fluttery-master/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
