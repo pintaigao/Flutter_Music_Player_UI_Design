@@ -19,9 +19,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  flutter_radio_gesture:
-    path: ./lib/utility/fluttery-master
-
+  fluttery_audio: ^0.0.3
 dev_dependencies:
   flutter_test:
     sdk: flutter
