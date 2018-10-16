@@ -1,4 +1,4 @@
-#Tue Oct 16 00:11:26 CDT 2018
-base.0=/Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/build/app/intermediates/transforms/dexMerger/debug/0
+#Tue Oct 16 17:03:48 CDT 2018
+base.0=/Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

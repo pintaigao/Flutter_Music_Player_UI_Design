@@ -1,82 +1,96 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:1:1-39:12
-MERGED from [:fluttery_audio] /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/build/fluttery_audio/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-7:12
-INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:1:1-39:12
+ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from [:fluttery_audio] /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/build/fluttery_audio/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/hptg/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/edb33eb8e2796d22591121900f401fbb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/hptg/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5747ad6644a14408110341a81cd57dec/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:1:1-41:12
 	package
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:2:5-38
-		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:2:5-44
+		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:1:1-39:12
-		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:1:1-39:12
-		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:8:5-66
+ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:8:5-66
 	android:name
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:8:22-64
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:10:22-77
 application
-ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:15:5-38:19
+ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:17:5-40:19
 	android:label
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:17:9-37
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:19:9-44
 	android:icon
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:18:9-43
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:20:9-43
 	android:name
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:16:9-57
-activity#com.example.musicdesign.MainActivity
-ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:19:9-37:20
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:18:9-57
+activity#com.example.designmusicplayer.MainActivity
+ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:21:9-39:20
 	android:launchMode
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:21:13-43
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:23:13-43
 	android:hardwareAccelerated
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:24:13-47
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:26:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:25:13-55
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:27:13-55
 	android:configChanges
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:23:13-137
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:25:13-137
 	android:theme
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:22:13-47
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:24:13-47
 	android:name
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:20:13-41
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:22:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:30:13-32:40
+ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:32:13-34:40
 	android:value
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:32:17-37
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:34:17-37
 	android:name
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:31:17-82
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:33:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:33:13-36:29
+ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:35:13-38:29
 action#android.intent.action.MAIN
-ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:34:17-68
+ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:36:17-68
 	android:name
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:34:25-66
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:35:17-76
+ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:37:17-76
 	android:name
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml:35:27-74
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml:37:27-74
 uses-sdk
-INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
-MERGED from [:fluttery_audio] /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/build/fluttery_audio/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
-MERGED from [:fluttery_audio] /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/build/fluttery_audio/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
-INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
+MERGED from [:fluttery_audio] /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/build/fluttery_audio/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttery_audio] /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/build/fluttery_audio/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/hptg/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/edb33eb8e2796d22591121900f401fbb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/hptg/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/edb33eb8e2796d22591121900f401fbb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/hptg/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5747ad6644a14408110341a81cd57dec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/hptg/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5747ad6644a14408110341a81cd57dec/AndroidManifest.xml:20:5-44
+INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/Design_Music_Player/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hptg/Documents/Projects/Mobile/Flutter/design_music_player/android/app/src/main/AndroidManifest.xml

@@ -13,8 +13,9 @@ class ButtomControls extends StatelessWidget {
     return new Container(
       width: double.infinity,
       child: new Material(
-        shadowColor: Color(0x44000000),
-        color: accentColor,
+        elevation: 10.0,
+        shadowColor: Color(0x44000000).withOpacity(0.55),
+        color: accentColor.withOpacity(0.785),
         child: Padding(
           padding: const EdgeInsets.only(top: 40.0, bottom: 50.0),
           child: new Column(
