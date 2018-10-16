@@ -25,19 +25,19 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-
   @override
   _MyHomePageState createState() => new _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   double _seekPercent;
 
   @override
   Widget build(BuildContext context) {
-    return new Audio(
-      audioUrl: demoPlaylist.songs[0].audioUrl,
+    return new AudioPlaylist(
+      playlist: demoPlaylist.songs.map((DemoSong song) {
+        return song.audioUrl;
+      }).toList(growable: false),
       playbackState: PlaybackState.paused,
       child: new Scaffold(
           appBar: new AppBar(
@@ -60,31 +60,42 @@ class _MyHomePageState extends State<MyHomePage> {
           body: new Column(
             children: <Widget>[
               // Seek bar
-              new Expanded(
-                  child: new AudioComponent(
-                updateMe: [
-                  WatchableAudioProperties.audioPlayhead,
-                  WatchableAudioProperties.audioSeeking
-                ],
-                playerBuilder:
-                    (BuildContext context, AudioPlayer player, Widget child) {
-                  double playbackProgress = 0.0;
-                  if (player.audioLength != null && player.position != null) {
-                    playbackProgress = player.position.inMilliseconds /
-                        player.audioLength.inMilliseconds;
-                  }
+              new Expanded(child: new AudioPlaylistComponent(
+                playlistBuilder: (BuildContext context, Playlist playlist, Widget child) {
+                  String albumArtUrl = demoPlaylist.songs[playlist.activeIndex].albumArtUrl;
 
-                  _seekPercent = player.isSeeking ? _seekPercent : null;
+                  return new AudioComponent(
+                    updateMe: [
+                      WatchableAudioProperties.audioPlayhead,
+                      WatchableAudioProperties.audioSeeking
+                    ],
+                    playerBuilder: (BuildContext context, AudioPlayer player,
+                        Widget child) {
+                      double playbackProgress = 0.0;
+                      if (player.audioLength != null &&
+                          player.position != null) {
+                        playbackProgress = player.position.inMilliseconds /
+                            player.audioLength.inMilliseconds;
+                      }
 
-                  return new RadialSeekBar(
-                    progress: playbackProgress,
-                    seekPercent: _seekPercent,
-                    onSeekRequest: (double seekPercent){
-                      setState(() => _seekPercent = seekPercent);
-                      final seekMillis = (player.audioLength.inMilliseconds * seekPercent).round();
-                      player.seek(new Duration(milliseconds: seekMillis));
+                      _seekPercent = player.isSeeking ? _seekPercent : null;
+
+                      return new RadialSeekBar(
+                        progress: playbackProgress,
+                        seekPercent: _seekPercent,
+                        onSeekRequest: (double seekPercent) {
+                          setState(() => _seekPercent = seekPercent);
+                          final seekMillis =
+                              (player.audioLength.inMilliseconds * seekPercent)
+                                  .round();
+                          player.seek(new Duration(milliseconds: seekMillis));
+                        },
+                        child: new Container(
+                          color:accentColor,
+                          child: new Image.network(albumArtUrl,fit: BoxFit.cover),
+                        )
+                      );
                     },
-
                   );
                 },
               )),
@@ -92,6 +103,11 @@ class _MyHomePageState extends State<MyHomePage> {
               new Container(
                 width: double.infinity,
                 height: 125.0,
+                child: new Visualizer(
+                  builder: (BuildContext context, List<int> fft){
+
+                  },
+                ),
               ),
 
               // Song title, artist name, and controls
@@ -106,12 +122,10 @@ class RadialSeekBar extends StatefulWidget {
   final double progress;
   final double seekPercent;
   final Function(double) onSeekRequest;
+  final Widget child;
 
-  RadialSeekBar({
-    this.progress = 0.0,
-    this.seekPercent = 0.0,
-    this.onSeekRequest
-  });
+  RadialSeekBar(
+      {this.progress = 0.0, this.seekPercent = 0.0, this.onSeekRequest,this.child});
 
   @override
   RadialSeekBarState createState() {
@@ -150,8 +164,7 @@ class RadialSeekBarState extends State<RadialSeekBar> {
   }
 
   void _onDragEnd() {
-
-    if(widget.onSeekRequest != null ){
+    if (widget.onSeekRequest != null) {
       widget.onSeekRequest(_currentDragPercent);
     }
 
@@ -165,9 +178,9 @@ class RadialSeekBarState extends State<RadialSeekBar> {
   @override
   Widget build(BuildContext context) {
     double thumbPosition = _progress;
-    if(_currentDragPercent != null ){
+    if (_currentDragPercent != null) {
       thumbPosition = _currentDragPercent;
-    }else if (widget.seekPercent != null ){
+    } else if (widget.seekPercent != null) {
       thumbPosition = widget.seekPercent;
     }
 
@@ -193,10 +206,7 @@ class RadialSeekBarState extends State<RadialSeekBar> {
               child: ClipOval(
                 // don't understand this part
                 clipper: new CircleClipper(),
-                child: new Image.network(
-                  demoPlaylist.songs[0].albumArtUrl,
-                  fit: BoxFit.cover,
-                ),
+                child: widget.child
               ),
             ),
           ),
