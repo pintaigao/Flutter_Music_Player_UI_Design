@@ -1,8 +1,9 @@
 # music_design
 
-A new Flutter project.
+A Music App implement by Flutter 
 
-## Getting Started
+# Screen Shot
+![](https://github.com/hptg1994/Flutter_Music_Player_UI_Design/blob/master/resource/screenshot_music.gif)
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+# Detail of each implementation
+  ..To be done...
